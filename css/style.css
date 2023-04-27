@@ -1,0 +1,16 @@
+.background {
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+@font-face{
+    font-family: myFont;
+    color: beige;
+    src: url(Cairo.ttf)
+}
+
+.navbar-brand{
+        font-family: myFont; 
+        }
