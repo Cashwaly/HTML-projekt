@@ -11,6 +11,14 @@
     src: url(Cairo.ttf)
 }
 
-.navbar-brand{
-        font-family: myFont; 
-        }
+.waly {
+    font-family: Akhenaton;
+    font-size: 100px;
+    color: goldenrod;
+}
+
+.nav-link {
+    font-family: Akhenaton;
+    font-size: 50px;
+    color: goldenrod;
+}
