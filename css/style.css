@@ -2,6 +2,31 @@
     box-sizing: border-box;
   }
   
+  @media only screen and (max-width: 600px) {
+    .headerImageR img {
+      display: none; /* Das Bild wird nicht angezeigt */
+    }
+    .headerImageL img {
+      display: none; /* Das Bild wird nicht angezeigt */
+    } 
+  }
+
+  .headerImageR img {
+    float:right;
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+    flex-grow: inherit;
+  }
+
+  .headerImageL img {
+    float:left;
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+    flex-grow: inherit;
+  }
+
   .header {
     padding: 80px;
     text-align: center;
