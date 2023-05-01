@@ -2,16 +2,15 @@
     box-sizing: border-box;
   }
   
-  /* Header/logo Title */
   .header {
     padding: 80px;
     text-align: center;
-    font-family: Cooper;
+    font-family: Felix Titling;
     background: #F4EEE2;
     color: black;
-    
+    background-image: url(/pictures/header.jpg);
   }
-  
+
   /* Style the top navigation bar */
   .navbar {
     display: flex;
