@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 850px) {
     .headerImageR img {
       display: none; /* Das Bild wird nicht angezeigt */
     }
@@ -10,6 +10,7 @@
       display: none; /* Das Bild wird nicht angezeigt */
     } 
   }
+
 
   .headerImageR img {
     float:right;
@@ -25,6 +26,24 @@
     height: auto;
     margin-top: 30px;
     flex-grow: inherit;
+  }
+
+  .headerh1 {
+    font-size: 50px;
+     background-color:#F4EEE2;
+     border-radius: 10px;
+     margin-left:200px;
+     margin-right: 200px;
+  }
+
+  .underline {
+    font-size: 20px;
+    background-color:#F4EEE2;
+    border-radius: 10px;
+    margin-left:500px;
+    margin-right: 500px;
+
+
   }
 
   .header {
@@ -57,34 +76,13 @@
     color: black;
   }
   
-  /* Column container */
-  .row {  
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-  .side {
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
-  }
-  
-  /* Main column */
-  .main {
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-  }
-  
-  /* Fake image, just for this example */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
-  
+.indexpage {
+    background-image: url(/pictures/indexbackground.jpg);
+    padding: 300px;
+
+
+}
+
   /* Footer */
   .footer {
     padding: 20px;
@@ -96,5 +94,28 @@
   @media screen and (max-width: 700px) {
     .row, .navbar {   
       flex-direction: column;
+    }
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .headerh1 {
+      font-size: 30px; /* Ändere die Schriftgröße der H1-Überschrift */
+      margin-left: 50px; /* Ändere den linken Rand der H1-Überschrift */
+      margin-right: 50px; /* Ändere den rechten Rand der H1-Überschrift */
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .underline {
+      font-size: 15px; /* Ändere die Schriftgröße der H1-Überschrift */
+      margin-left: 50px; /* Ändere den linken Rand der H1-Überschrift */
+      margin-right: 50px; /* Ändere den rechten Rand der H1-Überschrift */
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .header {
+      padding: 30p;
     }
   }
