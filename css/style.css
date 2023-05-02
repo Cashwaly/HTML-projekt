@@ -77,11 +77,19 @@
   }
   
 .indexpage {
-    background-image: url(/pictures/indexbackground.jpg);
-    padding: 300px;
-
-
+    background-color:#F4EEE2;
+    height: 600px;
+    background-image: url(/pictures/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100% 100%;
 }
+
+
+
+
+
+
 
   /* Footer */
   .footer {
