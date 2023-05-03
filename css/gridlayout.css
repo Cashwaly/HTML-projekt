@@ -1,0 +1,31 @@
+*
+/*Grid Layout Index */
+.gridlayout1{
+    display: grid;
+    grid-template-columns: 100%; 
+    grid-template-rows: 20% 10% 65% auto;
+    grid-template-areas:
+    "eins"
+    "zwei"
+    "drei"
+    "vier";
+}
+
+.header1{
+    grid-area: eins;
+}
+
+.menubar1{
+    grid-area: zwei;
+}
+
+.mainpage1{
+    grid-area: drei;
+}
+
+.footer1{
+    grid-area: vier;
+}
+
+/*Grid Layout about*/
+
